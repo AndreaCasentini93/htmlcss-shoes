@@ -60,9 +60,6 @@ section {
     height: 100vh;
     overflow: hidden;
 }
-section:first-child {
-    padding-top: 150px;
-}
 
 .content {
     position: absolute;
