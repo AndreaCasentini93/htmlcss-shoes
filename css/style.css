@@ -4,3 +4,43 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+/* navigation */
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 150px;
+    text-align: right;
+    line-height: 150px;
+}
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+nav a {
+    vertical-align: middle;
+    margin: 35px;
+    text-decoration: none;
+    color: black;
+}
+
+/* main */
+section {
+    width: 100%;
+    height: 100vh;
+}
+#background_red {
+    background-color: red;
+}
+#background_green {
+    background-color: green;
+}
+#background_yellow {
+    background-color: yellow;
+}
